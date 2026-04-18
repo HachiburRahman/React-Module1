@@ -17,5 +17,8 @@ const products=[
 // const result =products.filter(product=>product.price>=150000);
 // console.log(result);
 
-const result=products.find(product=>product.brand==="apple");
+// const result=products.find(product=>product.brand==="apple");
+// console.log(result);
+
+const result=products.filter(p=>p.brand !== "apple");
 console.log(result);
