@@ -18,6 +18,19 @@ const result1=sum1(1,2,3,4);
 
 const numbers=[1,2,3,4,5];
 const newNumbers=[...numbers,6,7];
-console.log(newNumbers);
+// console.log(newNumbers);
+const friends=["Jalal","Galib","Waes","Asif","Baha"];
+const [ele1,ele2,ele3,ele4,ele5]=friends;
+// console.log(ele1,ele2,ele3,ele4,ele5);
+
+const person={
+    name:"Hachib",
+    age:25,
+    friend:friends,
+    isMarried:false
+}
+
+const{name,age,friend,isMarried}=person;
+console.log(name);
 
 
