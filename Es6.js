@@ -31,6 +31,12 @@ const person={
 }
 
 const{name,age,friend,isMarried}=person;
-console.log(name);
+// console.log(name);
+
+const test="";
+// test?console.log("Trueee"):console.log("falsee");
+
+test && console.log("My Name");
+test || console.log("aaaa");
 
 
