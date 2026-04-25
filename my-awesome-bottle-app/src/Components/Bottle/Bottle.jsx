@@ -11,6 +11,7 @@ const Bottle = ({ bottle,handleCart }) => {
       <p>Price:${price}</p>
       <p>{stock}remaining</p>
       <button onClick={()=>handleCart(bottle)}>Buy Now</button>
+      
     </div>
   );
 };
